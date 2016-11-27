@@ -5,6 +5,31 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>WebpackBin project</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+
+    .carouselbox {
+      margin: 0;
+      padding: 0;
+      font-size: 0;
+      width: 400px;
+      height: 400px;
+    }
+    .contentItem {
+      margin: 0;
+      opacity: 0;
+      height: 0;
+    }
+    .contentItem.current {
+      padding: 1em;
+      box-sizing: border-box;
+      background: #eee;
+      font-size: 16px;
+      opacity: 1;
+      height: 400px;
+      transition: opacity .3s;
+    }
+
+  </style>
   </head>
   <body>
     <div id="app"></div>
